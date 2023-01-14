@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+body {
+  
+    background-color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    
+}
+
+.heading {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+
+
