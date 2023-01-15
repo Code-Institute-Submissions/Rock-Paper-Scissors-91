@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+body {
+
+    background-color: white;
+    font-family: 'Rubik Vinyl', cursive;
+
+}
+
+.heading {
+    text-align: center;
+
+}
+
+
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+h2 {
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    margin-left: 30%;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 30%;
+}
+
+p {
+    text-align: center;
+    margin-left: 35%;
+    font-size: 200%;
+}
+
+
+
+/*Game area*/
+
+.game-area {
+    width: 75%;
+}
+
+.rock {
+    margin-left: 35%;
+    width:20%;
+    
+}
+
+.paper {
+   
+    width:20%;
+    
+}
+.scissors {
+    
+    width:20%;
+    
+}
+
+/*footer styling*/
+footer
+{
+    height:150px;
+    width:100%;
+    position: relative;
+   
+   
+
+}
