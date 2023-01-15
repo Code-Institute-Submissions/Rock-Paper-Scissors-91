@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
 
 body {
   
@@ -9,6 +9,13 @@ body {
 
 .heading {
     font-family: 'Cinzel Decorative', cursive;
+    
+}
+
+/*Game area*/
+
+.game-area {
+    width: 75%;
 }
 
 
