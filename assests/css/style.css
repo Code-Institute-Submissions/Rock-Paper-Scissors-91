@@ -40,8 +40,6 @@ p {
     font-size: 200%;
 }
 
-
-
 /*Game area*/
 
 .game-area {
@@ -52,7 +50,9 @@ p {
     margin-left: 35%;
     width:20%;
     
+    
 }
+
 
 .paper {
    

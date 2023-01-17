@@ -20,22 +20,40 @@
   <img src="./assests/images/main-image.png" class="main-image"
     alt="A cartoon picture of a smiling rock, paper and scissors">
 
-
   <section class="game-area">
 
-    <p>Pick one:</p>
-    <img src="./assests/images/rock.png" class="rock">
-    <img src="./assests/images/paper.png" class="paper">
-    <img src="./assests/images/scissors.png" class="scissors">
+    <h2>Rules:
+      <br>Rock beats scissors is a two-player game - you vs the computer. You choose either rock, paper or scissors.
+      <br><br>Scissors beats
+      paper by cutting it, paper beats rock by covering it, and rock beats scissors by destroying it. So, depending on
+      which one
+      you pick, either you win or the computer does!</h2>
+    <br>
 
-    <h2>You:0</h2>
-    <h2>Computer:0</h2>
+    <div class="play">
+      <p class="winner">Pick one:</p>
+
+    <img src="./assests/images/rock.png" data-choice="0" class="rock" alt="rock">
+    <img src="./assests/images/paper.png" data-choice="1" class="paper" alt="paper">
+    <img src="./assests/images/scissors.png" data-choice="2" class="scissors"alt="scissors">
+
+    <div class="score">
+      <div class="player-score">
+        <h2>You</h2>
+        <p>0</p>
+
+        <div class="computer-score">
+          <h2>Computer</h2>
+          <p>0</p>
+        </div>
+      </div>
+
+     
+
 </body>
 <footer>
-  <h2>Rules:
-    <br>Rock beats scissors, scissors beat paper, paper beats rock</h2>
-    <br>
-    <h3>Copyright © Joanna Studdert-Kennedy, 2023</h3>
+
+  <h3>Copyright © Joanna Studdert-Kennedy, 2023</h3>
 
 </footer>
 
