@@ -16,3 +16,4 @@ vscode:
     - ms-toolsai.jupyter-renderers
     - ms-python.isort
     - ms-toolsai.vscode-jupyter-cell-tags
+    - ms-toolsai.vscode-jupyter-slideshow
