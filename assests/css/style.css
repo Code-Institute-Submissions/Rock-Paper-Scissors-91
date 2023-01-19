@@ -5,6 +5,7 @@ body {
 
     background-color: white;
     font-family: 'Rubik Vinyl', cursive;
+    margin-left: 5%;
 
 }
 
@@ -46,23 +47,6 @@ p {
     width: 75%;
 }
 
-.rock
- {
-    margin-left: 35%;
-    width:20%;   
-    
-}
-
-.paper {
-   
-    width:20%;
-    
-}
-.scissors {
-    
-    width:20%;
-    
-}
 
 /*footer styling*/
 
