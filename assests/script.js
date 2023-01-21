@@ -1,6 +1,10 @@
+/* const choices */
+
 const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
-const resultDisplay = document.getElementById('computer-choice')
+const resultDisplay = document.getElementById('result')
+
+/* let choices */
 
 let userChoice
 let computerChoice
@@ -12,7 +16,7 @@ possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('cli
     userChoice = e.target.id
     userChoiceDisplay.innerHTML = userChoice
     generateComputerChoice()
-    getResult
+    getResult()
 
 }))
 
@@ -31,6 +35,8 @@ function generateComputerChoice() {
     }
     computerChoiceDisplay.innerHTML = computerChoice
 }
+
+/* function for all outcomes */
 
 function getResult() {
     if (computerChoice === userChoice) {
@@ -58,4 +64,5 @@ function getResult() {
         result = 'Computer wins!'
     }
     resultDisplay.innerHTML = result
+  
 }
