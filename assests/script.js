@@ -1,20 +1,20 @@
 /* const choices */
 
 const computerChoiceDisplay = document.getElementById('computer-choice')
-const userChoiceDisplay = document.getElementById('user-choice')
+const playerChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
 
 /* let choices */
 
-let userChoice
+let playerChoice
 let computerChoice
 let result
 
 const possibleChoices = document.querySelectorAll('button')
 
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
-    userChoice = e.target.id
-    userChoiceDisplay.innerHTML = userChoice
+    playerChoice = e.target.id
+    playerChoiceDisplay.innerHTML = playerChoice
     generateComputerChoice()
     getResult()
 
@@ -39,28 +39,28 @@ function generateComputerChoice() {
 /* function for all outcomes */
 
 function getResult() {
-    if (computerChoice === userChoice) {
+    if (computerChoice === playerChoice) {
         result = 'Draw!'
     }
 
-    if (computerChoice === 'rock' && userChoice === 'scissors') {
+    if (computerChoice === 'rock' && playerChoice === 'scissors') {
         result = 'Computer wins!'
     }
-    if (computerChoice === 'scissors' && userChoice === 'rock') {
+    if (computerChoice === 'scissors' && playerChoice === 'rock') {
         result = 'Player wins!'
     }
-    if (computerChoice === 'scissors' && userChoice === 'paper') {
+    if (computerChoice === 'scissors' && playerChoice === 'paper') {
         result = 'Computer wins!'
     }
-     if (computerChoice === 'paper' && userChoice === 'scissors') {
+     if (computerChoice === 'paper' && playerChoice === 'scissors') {
             result = 'Player wins!'
     }
     
-    if (computerChoice === 'rock' && userChoice === 'paper') {
+    if (computerChoice === 'rock' && playerChoice === 'paper') {
         result = 'Player wins!'
     }
 
-    if (computerChoice === 'paper' && userChoice === 'rock') {
+    if (computerChoice === 'paper' && playerChoice === 'rock') {
         result = 'Computer wins!'
     }
     resultDisplay.innerHTML = result
