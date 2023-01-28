@@ -19,8 +19,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height:auto;
+    width:60%
+
 }
 
 
@@ -49,16 +49,14 @@ p {
 }
 
 #button-area {
-    padding-left: 45%;
+    flex-direction: row;
+    padding-left: 50%;
 }
 
 .buttons {
-
-    width:20%;
-    height:20%;
-    flex-direction: row;
     flex: auto;
-
+    width:75%;
+    
 }
 
 /*footer styling*/
@@ -69,3 +67,15 @@ footer
     width:100%;  
 
 }
+
+/* Media Queries  * /
+
+/*for screens of below 380px*/
+
+@media only screen and (max-width: 380px) {
+    .main-image {
+        width:50%;
+    }
+
+    }
+    
