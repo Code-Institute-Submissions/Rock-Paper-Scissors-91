@@ -2,3 +2,5 @@ The main image is from https://www.vecteezy.com/vector-art/693105-cartoon-rock-p
 
 The images for the rock, paper, scissors icons are from https://www.seekpng.com/idown/u2q8u2a9a9o0r5a9_rock-paper-scissors-rock-paper-scissors-png/
 
+The tutorial https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1771s by Ania Kubów for the Java inspiration
+
