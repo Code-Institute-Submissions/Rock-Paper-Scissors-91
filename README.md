@@ -53,16 +53,26 @@ Classic Rock, Paper, Scissors is a game of you vs the computer. It takes the muc
 <p>No known bugs were detected when I pushed it to Pages on Github.</p>
 
 <h1>Validator testing</h1>
-<p>HTML - </p>
+<p>HTML - It passed the W3C validator without errors</p>
+
+<img src="./assests/images/readme/htmltest.png">
+
 <p>CSS - It passed the W3C validator without any errors.
 
 <img src="./assests/images/readme/csstest.png">
 
+<p>Javascript - It passed through JShint with 38 warnings, but no errors.
 
+<h1>Deployment</h1>
+<p>The site was deployed to Github Pages. Simply navigate to settings, then Pages to find the live link. The live link is here: https://joannalsk.github.io/Rock-Paper-Scissors/
+
+<h1>Credits</h1>
 
 The main image is from https://www.vecteezy.com/vector-art/693105-cartoon-rock-paper-scissors-vector-characters
 
 The images for the rock, paper, scissors icons are from https://www.seekpng.com/idown/u2q8u2a9a9o0r5a9_rock-paper-scissors-rock-paper-scissors-png/
 
-The tutorial https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1771s by for the Java inspiration
+The tutorial https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1771s by for the Java inspiration.
+
+Thanks to my mentor, Rahul and everyone on Slack as always!
 
