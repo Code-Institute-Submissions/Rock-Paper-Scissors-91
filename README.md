@@ -40,7 +40,7 @@ Classic Rock, Paper, Scissors is a game of you vs the computer. It takes the muc
 
 <h1>Testing</h1>
 
-<p> I checked that the functions for player chocie and computer choice and result were always correct. 
+<p> I checked that the functions for player choice and computer choice and result were always correct. 
 <p>I ran the desktop version through Lighthouse and checked it reached the acceptable scores for accessibility, SEO, performance etc</p>
 
 <img src="./assests/images/readme/desktop.png">
