@@ -1,3 +1,5 @@
+// Code from the video tutorial (see README) by Ania Kubów //
+
 /* const choices */
 
 const computerChoiceDisplay = document.getElementById('computer-choice')
